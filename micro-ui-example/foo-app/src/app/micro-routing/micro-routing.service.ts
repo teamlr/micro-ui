@@ -2,7 +2,7 @@ import { Inject, Injectable, InjectionToken } from '@angular/core';
 import { fromEvent, Observable } from 'rxjs';
 import { Location } from '@angular/common';
 
-import * as fromSettings from './../app.settings';
+import * as fromSettings from '../app.settings';
 import { Router } from '@angular/router';
 import { filter, map } from 'rxjs/operators';
 

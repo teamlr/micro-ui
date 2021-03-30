@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as fromSettings from './../../../app.settings';
+import * as fromSettings from '../../../app.settings';
 
 @Component({
   selector: 'app-first',

@@ -16,14 +16,8 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix"
   },
-  "keywords": [
-    "microfrontend",
-    "federeted",
-    "microfrontends",
-    "micro",
-    "umd"
-  ],
-  "author": "Marcin Milewicz",
+  "keywords": [],
+  "author": "Marcin Milewicz, Larry Yu",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.4",

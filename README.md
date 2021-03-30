@@ -1,6 +1,6 @@
-# Microfrontendly
+# Micro UI
 
-Small in size but great in action microfrontend library
+Small in size but great in action micro UI library
 * Run frameworks (e.g Angular, React, Vue) in one application easily
 * Divide your framework monolith into smaller, independent and technology-agnostic parts
 * Release your changes in an application without rebuilding and redeployment the entire application
@@ -12,7 +12,7 @@ Install all dependencies for the library project
 npm install
 ```
 
-Install dependencies for microfrontend example
+Install dependencies for micro-ui example
 ```bash
 npx lerna bootstrap
 ```
@@ -27,7 +27,7 @@ Serve example microapps
 npm run serve:microapp
 ```
 
-Serve  microfrontend shell
+Serve  micro-ui shell
 ```bash
 npm run serve:shell
 ```
@@ -38,7 +38,7 @@ Go to http://localhost:9000/
 
 ### Description and plans for the future
 
-The library design is in early development, but the most important features are working properly. The library uses WebComponents as a microfrontend interface, thanks to which the micro-application shell is able to run micro-applications written in either Angular or React or pure WC.
+The library design is in early development, but the most important features are working properly. The library uses WebComponents as a micro-ui interface, thanks to which the micro-application shell is able to run micro-applications written in either Angular or React or pure WC.
 
 A big advantage is the fact that the location of the sources and their configuration are provided in runtime. This allows for release of individual functionality in micro-applications without rebuilding and redeployment entire application.
 

@@ -1,6 +1,6 @@
 {
   "packages": [
-    "microfrontend-example/*"
+    "micro-ui-example/*"
   ],
   "version": "independent"
 }
